@@ -1,0 +1,12 @@
+
+    <resources>
+        <string-array name="opciones_motivo">
+            <item >Tipo de incidencia...</item>
+            <item >Electrodomésticos</item>
+            <item >Alcohol</item>
+            <item >Fumar</item>
+            <item >Router o switch</item>
+            <item >Gritos, ruidos, sonidos, ...</item>
+            <item >Suciedad</item>
+        </string-array>
+    </resources>

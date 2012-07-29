@@ -1,0 +1,6 @@
+    <resources>
+        <color name="fondo_splash">#385C8C</color>
+        <color name="color_borde_attachment">#CDCDCD</color>
+        <color name="color_fondo_attachment">#EAEAEA</color>
+        <color name="color_fondo_attachment2">#DBDBDB</color>
+    </resources>

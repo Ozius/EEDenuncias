@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">EE Denuncias</string>
+    <string name="title_activity_main">EE Denuncias</string>
+    <string name="menu_enviar">Enviar</string>
+    <string name="menu_settings">Opciones</string>
+	<string name="menu_add">Añadir foto</string>
+	<string name="hora_puesto">HORA/PUESTO</string>
+	<string name="datos_denuncia">DATOS DE LA INCIDENCIA</string>
+	<string name="hora">Hora</string>
+	<string name="letra">Letra</string>
+	<string name="numero">Número</string>
+	<string name="descripcion_denuncia">Descripción</string>
+	<string name="cancel">Cancelar</string>
+	<string name="error_tipo">Debe seleccionar el tipo de incidencia</string>
+	<string name="error_desc">Debe escribir una descripción de la incidencia</string>
+	
+</resources>

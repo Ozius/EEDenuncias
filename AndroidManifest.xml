@@ -1,0 +1,47 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mugitek.eedenuncias"
+    android:versionCode="11"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.CAMERA" android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+	<uses-feature android:name="android.hardware.camera" android:required="false"/>
+	
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true" >
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="DenunciaActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Denuncias">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="SettingsActivity" android:theme="@style/Theme.Denuncias"></activity>
+        
+    </application>
+
+</manifest>

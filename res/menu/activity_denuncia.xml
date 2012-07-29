@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_send"
+        android:title="@string/menu_enviar"
+        android:icon="@drawable/social_send_now"
+        android:orderInCategory="90"
+        android:showAsAction="ifRoom|withText" />
+    
+    <item android:id="@+id/menu_add"
+        android:title="@string/menu_add"
+        android:icon="@drawable/content_new_picture"
+        android:orderInCategory="95"
+        android:showAsAction="ifRoom|withText" />
+    
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

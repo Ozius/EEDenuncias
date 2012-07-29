@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory
+            android:title="Opciones">
+
+        <EditTextPreference
+                android:key="preference_email"
+                android:title="Email"
+                android:summary="Email al que enviar las denuncias."
+                android:dialogTitle="Email" android:dialogMessage="Escribe una dirección de email válida." android:defaultValue="marcan@euskalencounter.org"/>
+
+        <CheckBoxPreference
+            android:key="preference_thumbnail"
+            android:title="Mostrar thumbnail" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>
